@@ -1,0 +1,49 @@
+.form {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.form__container {
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+
+.form__input {
+    height: 400px;
+    width: 80%;
+    font-size: 158px;
+    text-align: center;
+}
+
+.form__describe {
+    font-size: 20px;
+}
+
+.form__button {
+    width: 40%;
+    height: 50px;
+    margin-top: 40px;
+    background-color: #ffffff;
+    color: white;
+    background-color: black;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none; 
+}
+
+input[type='number'],
+input[type="number"]:hover,
+input[type="number"]:focus {
+    appearance: none;
+    -moz-appearance: textfield;
+}
